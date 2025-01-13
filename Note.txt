@@ -1,0 +1,55 @@
+				+++ Slot 1 +++
+
+Giới thiệu về React Native
+-Máy ảo: muốn chạy trên android thì cần cài máy ảo (cài android studio) =>
+----
+React Native có 2 phiên bản 
+Expo
+Client
+------
+-Tạo ứng dụng React Native:
+B1- tạo 1 thư mục
+B2- mở thư mục đó bằng vscode
+B3- Gọi Terminal
+B4- gõ lệnh npx create-expo-app@latest 
+B5- Enter...
+B6- Sau khi tạo xong -> chạy thử
+B7- Nén thư mục ứng dụng(lần sau sử dụng) 
+npm run android 
+npm run web
+
+%ANDROID_HOME%\platform-tools
+%ANDROID_HOME%\tools
+ANDROID_HOME = C:\Users\<YourUserName>\AppData\Local\Android\Sdk
+
+Vào edit the system environment  
+----
+Chú ý: 
+- Hệ điều hành dùng tiếng anh 
+- Tên thư mục: ko viết tiếng Việt, ko có dấu cách
+-------
+ 
+
+				+++ SLOT 2 +++
+BÀI 2: Props và State
+1. Giới thiệu 
+props (properties, thuộc tính, bất biến, dùng để lưu trữ)
+state(trạng thái, thay đổi, dùng để cập nhật dữ liệu)
+Dùng trong trường hợp nào??
+state: gần giống biến cục bộ trong hàm, thường dùng để thay đổi dữ liệu ở trong hàm 
+-Thường dùng để nhập liệu 
+get: this.state.tenState
+set: this.setState({tenState: giaTri})
+props: truyền dữ liệu (từ Cha sang con) từ Component Cha sang Component Con 
+get: this.props.tenProps 
+Ví dụ: 
+public class Abc {
+	Context c; //khai bao props
+	public Abc(Context c1) //c1 là state
+	{
+		this.c = c1;
+	}
+}
+-----
+Sử dụng State: 
+Click vào Text => click lần 1, click lần 2,... 
