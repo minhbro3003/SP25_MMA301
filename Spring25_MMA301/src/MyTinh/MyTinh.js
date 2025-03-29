@@ -164,6 +164,7 @@ const style = StyleSheet.create({
     },
     calculation: {
         flex: 2,
+        padding: 10,
         justifyContent: "space-around",
         alignItems: "flex-end",
         backgroundColor: "rgb(0 255 168)",

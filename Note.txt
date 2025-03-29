@@ -53,3 +53,18 @@ public class Abc {
 -----
 Sử dụng State: 
 Click vào Text => click lần 1, click lần 2,... 
+
+
+Slot 4 - Thiet ke giao dien(tiep)
+- MTDT = thiết kế button + kiểu class
+- MTDT = thiết kế vòng lặp 
+
+Slot 5 - Debug
+C1 - console.log
+C2- view console tren chrome
+C3 - breackpoint: hỗ trợ chạy từng dòng code 
+-------------
+Yeu cau: 
+- cap nhat lai nodejs
+cai debugger
+brew 
